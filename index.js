@@ -1,3 +1,4 @@
+//function called while clicking add button
 function add_item() {
 
   //getting box and ul by selecting id;
@@ -14,13 +15,15 @@ function add_item() {
 
       //reset the value of box
       item.value=""
-
+      
+      //delete a li item on click 
       make_li.onclick = function(){
         this.parentNode.removeChild(this);
       }
 
   }
   else{
+    //alert msg when value of box is "" empty.
     alert("plz add a value to item");
   }
 
