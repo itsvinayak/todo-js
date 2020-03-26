@@ -17,47 +17,6 @@ h1{
    text-decoration: underline;
 }
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box {
-  background: lightgrey;
-  border: 1px solid black;
-  padding: 3%;
-  width: 50%;
-  height: auto;
-  overflow: auto;
-  display: inline-block;
-  box-shadow: 0px 5px 25px black;
-  margin-bottom: 3%;
-  border-radius: 5%;
-}
-
-input {
-  text-align: center;
-  padding: 4%;
-  border: 0;
-}
-input[type="text"]{
-  margin-left: 5%;
-  width: 70%;
-
-}
-
-input[type="button"] {
-  padding: 4% 6% 4% 6%;
-  text-transform: uppercase;
-  font-weight: bolder;
-}
-
-input[type="button"]:hover {
-  background: lightblue;
-  transition: 1s ease-out;
-}
-
 ul {
   text-align: lleft;
   padding-left: 10%;
